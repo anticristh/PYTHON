@@ -2,10 +2,17 @@
 import pandas as pd # Se importa la librería pandas para el manejo de datos en estructuras como Series y DataFrames
 
 # 2. Creación de una Serie (Una sola columna, como un vector de precipitaciones)
+<<<<<<< HEAD
 serie_precip = pd.Series([0.0, 12.5, 5.0, 0.0], name="Precipitacion_mm")
 
 print("--- Ejemplo de Serie ---")
 print(serie_precip)
+=======
+serie_precipitacion = pd.Series([0.0, 12.5, 5.0, 0.0], name="Precipitacion_mm")
+
+print("--- Ejemplo de Serie ---")
+print(serie_precipitacion)
+>>>>>>> 05fe930 (Se actualizó la serie_precipitacion)
 
 
 # 3. Creación de un DataFrame (Tabla completa bidimensional)
@@ -28,3 +35,8 @@ df = pd.read_excel('datos_senamhi_real.xlsx', sheet_name='datos_senamhi_real', s
 print("\n--- Primeras 5 filas del registro ---")
 print(df.head())
 print(df)
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 05fe930 (Se actualizó la serie_precipitacion)
