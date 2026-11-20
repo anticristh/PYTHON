@@ -1,4 +1,5 @@
 # 1. iMPORTACIÓN DE LIBRERÍAS
+# Estoy aprendiendo GitHub y Git, por lo que este es un ejemplo de cómo subir un archivo a un repositorio remoto.
 import pandas as pd # Se importa la librería pandas para el manejo de datos en estructuras como Series y DataFrames
 
 # 2. Creación de una Serie (Una sola columna, como un vector de precipitaciones)

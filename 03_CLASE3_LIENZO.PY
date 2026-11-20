@@ -24,7 +24,7 @@ print(df_limpio.head())
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# 1. Leer el archivo Excel del SENAMHI
+# 1. Leer el archivo Excel del SENAMHI plotear en barras hietograma
 df = pd.read_excel(
     "datos_senamhi_real.xlsx",
     sheet_name="datos_senamhi_real",
